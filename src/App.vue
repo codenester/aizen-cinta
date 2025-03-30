@@ -98,7 +98,7 @@ onMounted(() => {
 .col {
   flex-direction: column;
   position: relative;
-  gap: 20px;
+  gap: 10px;
 }
 
 .row.v-center {
@@ -111,7 +111,7 @@ onMounted(() => {
 
 .intro-invis,
 .intro {
-  font-size: 60px;
+  font-size: 30px;
   transition: 2s;
 }
 
@@ -120,7 +120,7 @@ onMounted(() => {
 }
 
 .name {
-  font-size: 40px;
+  font-size: 20px;
   transition: 2s;
 }
 
@@ -129,10 +129,10 @@ onMounted(() => {
 }
 
 .img-box {
-  min-width: 200px;
-  min-height: 200px;
-  max-width: 200px;
-  max-height: 200px;
+  min-width: 120px;
+  min-height: 120px;
+  max-width: 120px;
+  max-height: 120px;
   display: flex;
   border-radius: 50%;
   position: relative;
@@ -164,8 +164,8 @@ onMounted(() => {
 
 .heart {
   display: flex;
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .heart-invis {
